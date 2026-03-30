@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+# 🛒 Loja Virtual com React + PrimeReact
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 Sobre o Projeto
 
-## Available Scripts
+Este projeto é uma aplicação simples de loja virtual desenvolvida em **React**, que consome dados de uma API externa e exibe produtos em um layout moderno utilizando **PrimeReact**.
 
-In the project directory, you can run:
+Além disso, a aplicação permite adicionar novos produtos dinamicamente por meio de um formulário.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Funcionalidades
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* 🔹 Listagem de produtos consumindo API externa
+* 🔹 Exibição de produtos em cards estilizados
+* 🔹 Layout responsivo com PrimeFlex
+* 🔹 Adição de novos produtos via formulário
+* 🔹 Atualização dinâmica da lista de produtos
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🌐 API Utilizada
 
-### `npm run build`
+Os dados dos produtos são obtidos da API:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+👉 https://fakestoreapi.com/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Tecnologias Utilizadas
 
-### `npm run eject`
+* React
+* PrimeReact
+* PrimeIcons
+* PrimeFlex
+* Axios
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📁 Estrutura do Projeto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+src/
+ ├── components/
+ │    ├── ProductCard.jsx
+ │    ├── ProductList.jsx
+ │    └── AddProductForm.jsx
+ ├── App.js
+ └── index.js
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## ⚙️ Como Executar o Projeto
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 1. Clone o repositório
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+git clone https://github.com/seu-usuario/loja-virtual.git
+```
 
-### Code Splitting
+### 2. Acesse a pasta
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+cd loja-virtual
+```
 
-### Analyzing the Bundle Size
+### 3. Instale as dependências
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+npm install
+```
 
-### Making a Progressive Web App
+### 4. Execute o projeto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```
+npm start
+```
 
-### Advanced Configuration
+O projeto será iniciado em:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+👉 http://localhost:3000
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## ✨ Funcionalidade Extra
 
-### `npm run build` fails to minify
+A aplicação utiliza **PrimeFlex** para garantir um layout responsivo, proporcionando uma melhor experiência em diferentes tamanhos de tela.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 📌 Melhorias Futuras
+
+* 🛒 Implementação de carrinho de compras
+* 🔍 Filtro e busca de produtos
+* ⭐ Sistema de avaliação
+* 🔔 Notificações ao adicionar produtos
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Felipe de Freitas Gusmão**
+
+---
+
+## 📄 Licença
+
+Este projeto é apenas para fins educacionais.
